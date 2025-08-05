@@ -1,15 +1,13 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     public int val;
- *     public ListNode next;
- *     public ListNode(int val=0, ListNode next=null) {
- *         this.val = val;
- *         this.next = next;
- *     }
- * }
- */
-public class Solution {
+
+public class ListNode {
+    public int val;
+    public ListNode next;
+    public ListNode(int val = 0, ListNode next = null) {
+        this.val = val;
+        this.next = next;
+    }
+}
+public class Add_Two_Numbers {
     public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummyHead = new ListNode(0);
         ListNode current = dummyHead;
